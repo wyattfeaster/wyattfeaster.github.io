@@ -1,3 +1,52 @@
-img{
-	width:100px;
+
+/*  GLOBAL  */
+
+body{
+
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	line-height: 32px;
+
 }
+
+
+
+/*  HOME PAGE */
+
+
+
+
+
+/*  BIO PAGE */
+
+.bio h3 {
+
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	text-align: left;
+
+}
+
+.bio h1 {
+
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.bio article{
+
+	background: gray;
+	margin: 0 auto;
+	width: 1000px;
+
+
+}
+.bio section{
+
+	float: left;
+ 	width:500px;
+
+ }
+
+
+
+
+/*  STYLE TILE */
