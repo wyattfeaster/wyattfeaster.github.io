@@ -17,11 +17,35 @@ body{
 
 
 /*  BIO PAGE */
+nav{
+
+	height:15px;
+	margin: 25px;
+}
+
+nav ul{
+
+	vertical-align: middle;
+}
+nav li {
+
+	display: inline;
+	float:right;
+	padding-right:10px;
+
+	
+} 
 
 .bio h3 {
 
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	text-align: left;
+	padding-left:50px;
+
+}
+.bio p{
+
+padding:50px;
 
 }
 
@@ -33,18 +57,29 @@ body{
 
 .bio article{
 
-	background: gray;
+	
 	margin: 0 auto;
 	width: 1000px;
-
+	
+	height:50px;
 
 }
 .bio section{
 
 	float: left;
  	width:500px;
+ 	background: blue;
+ 	margin-top: 50px;
+
 
  }
+
+ .bio .resume-content{
+background-color: green;
+text-align: left;
+
+ }
+
 
 
 
