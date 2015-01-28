@@ -4,7 +4,7 @@
 body{
 
 	font-family: Geneva, Tahoma, Verdana, sans-serif;
-	line-height: 32px;
+	line-height: 30px;
 
 }
 
@@ -17,35 +17,58 @@ body{
 
 
 /*  BIO PAGE */
-nav{
 
-	height:15px;
-	margin: 25px;
-}
 
 nav ul{
-
+	height:15px;
+	margin: 0px;
+	line-height: 20px;
+	height:20px;
 	vertical-align: middle;
+	padding-right:20px;
+
 }
 nav li {
-
+	padding:10px;
 	display: inline;
 	float:right;
-	padding-right:10px;
+	padding-right:5px;
+	padding-left:10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
 
-	
 } 
 
 .bio h3 {
 
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	text-align: left;
-	padding-left:50px;
+	text-align: center;
+	text-transform: uppercase;
+	
+
+
+}
+
+.bio-content img{
+
+height:200px;
+width:200px;
+border-radius: 100%;
+display: block;
+margin-right: auto;
+margin-left: auto;
+
 
 }
 .bio p{
 
-padding:50px;
+text-align: center;
+padding-top:30px;
+display:inline-block;
+padding-right: 75px;
+padding-left: 75px;
 
 }
 
@@ -60,7 +83,7 @@ padding:50px;
 	
 	margin: 0 auto;
 	width: 1000px;
-	
+	background: gray;
 	height:50px;
 
 }
@@ -68,18 +91,32 @@ padding:50px;
 
 	float: left;
  	width:500px;
- 	background: blue;
- 	margin-top: 50px;
+ 	background-color: #d3d3d3;
+ 	margin-top: 30px;
+ 	padding-top: 75px;
 
+
+ }
+
+ .bio .bio-content{
+
+height:600px;
 
  }
 
  .bio .resume-content{
-background-color: green;
+background-color: #d3d3d3;
 text-align: left;
+margin-top:10px; 
+height:600px;
+
 
  }
+.bio .resume-content li{
 
+list-style: none;
+
+}
 
 
 
