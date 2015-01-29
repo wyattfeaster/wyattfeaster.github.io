@@ -10,7 +10,7 @@ body{
 }
 
 header{
-  background:black;
+  background:#02733e;
   margin:0 auto;
   width:1200px;
   height:60px;
@@ -21,10 +21,12 @@ header{
 
 header blockquote{
 	margin-left:80px;
-	margin-top:-50px;
+	margin-top:-60px;
 	padding-top:5px;
 	padding-bottom:5px;
 	text-transform: uppercase;
+
+
 	
 
 }
@@ -61,12 +63,25 @@ section{
  
 }
 
-.about p{
+.about h1{
+	padding-right:50px ;
+  	padding-left:50px ;
+  	padding-bottom:5px ;
+  	padding-top: 10px;
+ 	text-align:left;
+  	font-size:18px;
+  	color:#02733e;
+  	text-transform: uppercase;
+  	letter-spacing: 1px;
+
+
+}
+.about p {
   
   padding-right:50px ;
   padding-left:50px ;
   padding-bottom:15px ;
-  padding-top:15px ;
+  padding-top:0px ;
   text-align:left;
   font-size:13px;
   max-height:200px;
@@ -100,14 +115,17 @@ img{
   margin-top: 20px;
   width:700px;
   line-height: 30px;
-  
+  font-size: 14px;
 }
 
-h2{
+h2 {
+
   margin-top: 40px;
   margin-left:400px;
   text-transform:uppercase;
   letter-spacing:4px;
+  font-size: 16px;
+  color:#a63208;
   
 }
 
