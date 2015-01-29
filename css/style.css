@@ -2,123 +2,114 @@
 /*  GLOBAL  */
 
 body{
-
-	font-family: Geneva, Tahoma, Verdana, sans-serif;
-	line-height: 30px;
-
-}
-
-
-
-/*  HOME PAGE */
-
-
-
-
-
-/*  BIO PAGE */
-
-
-nav ul{
-	height:15px;
-	margin: 0px;
+  
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
 	line-height: 20px;
-	height:20px;
-	vertical-align: middle;
-	padding-right:20px;
-
+  
+  
 }
-nav li {
-	padding:10px;
-	display: inline;
-	float:right;
-	padding-right:5px;
-	padding-left:10px;
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	letter-spacing: 2px;
 
-} 
+header{
+  background:black;
+  margin:0 auto;
+  width:1200px;
+  height:60px;
+  width:100%;
+  position: fixed;
+  color:white;  
+}
 
-.bio h3 {
-
-	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	text-align: center;
+header blockquote{
+	margin-left:80px;
+	margin-top:-50px;
+	padding-top:5px;
+	padding-bottom:5px;
 	text-transform: uppercase;
 	
 
-
 }
 
-.bio-content img{
+header img{
 
-height:200px;
-width:200px;
-border-radius: 100%;
-display: block;
-margin-right: auto;
-margin-left: auto;
-
-
-}
-.bio p{
-
-text-align: center;
-padding-top:30px;
-display:inline-block;
-padding-right: 75px;
-padding-left: 75px;
-
-}
-
-.bio h1 {
-
-	text-transform: uppercase;
-	letter-spacing: 4px;
-}
-
-.bio article{
-
-	
-	margin: 0 auto;
-	width: 1000px;
-	background: gray;
-	height:50px;
-
-}
-.bio section{
-
-	float: left;
- 	width:500px;
- 	background-color: #d3d3d3;
- 	margin-top: 30px;
- 	padding-top: 75px;
-
-
- }
-
- .bio .bio-content{
-
-height:600px;
-
- }
-
- .bio .resume-content{
-background-color: #d3d3d3;
-text-align: left;
-margin-top:10px; 
-height:600px;
-
-
- }
-.bio .resume-content li{
-
-list-style: none;
-
+height:60px;
+width:60px;
+padding-top:5px;
+padding-bottom:5px;
+padding-left: 10px;
+padding-right:10px;
 }
 
 
+article{
+  
+  width:1200px;
+  margin:auto;
+  
+}
+
+section{
+  margin-top: 60px;
+  float:left;
+  
+}
+
+.about{
+  background:none;
+  width:300px;
+  height:450px;
+  position:fixed;
+ 
+}
+
+.about p{
+  
+  padding-right:50px ;
+  padding-left:50px ;
+  padding-bottom:15px ;
+  padding-top:15px ;
+  text-align:left;
+  font-size:13px;
+  max-height:200px;
+  font-color:black;
+  
+ 
+}
+
+img{
+  
+  width:200px;
+  height:200px;
+  border-radius:none;
+  padding-top:40px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom: 5px;
+
+  
+}
+.resume{
+  background:none;
+  width:1200px;
+  height: 900px;
+  text-align:left;
+}
+
+.resume p {
+ 
+  margin-left:400px;
+  margin-top: 20px;
+  width:700px;
+  line-height: 30px;
+  
+}
+
+h2{
+  margin-top: 40px;
+  margin-left:400px;
+  text-transform:uppercase;
+  letter-spacing:4px;
+  
+}
 
 
-/*  STYLE TILE */
+
