@@ -22,7 +22,7 @@ header{
 header blockquote{
 	margin-left:80px;
 	margin-top:-60px;
-	padding-top:5px;
+	padding-top:10px;
 	padding-bottom:5px;
 	text-transform: uppercase;
 
@@ -35,7 +35,7 @@ header img{
 
 height:60px;
 width:60px;
-padding-top:5px;
+padding-top:2px;
 padding-bottom:5px;
 padding-left: 10px;
 padding-right:10px;
@@ -128,6 +128,3 @@ h2 {
   color:#a63208;
   
 }
-
-
-
