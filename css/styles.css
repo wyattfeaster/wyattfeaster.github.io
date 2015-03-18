@@ -114,7 +114,7 @@ img {
 
 /*****************  Image Paragraphs and Headings  ******************/
 
-p, 
+
 h1{
 	text-align: left;
 	padding:0 20px;
@@ -158,6 +158,11 @@ body{
 /* Header Styles */
 
 
+
+ul li {
+
+	padding:15px 20px;
+}
 /*banner styling*/
 
 .me {
@@ -422,8 +427,45 @@ article{
 /**********************END PROJECT PAGES STYLING*********************************************************/
 
 
+/*STYLE-TILE*/
 
+.c1{
+background: #ED891B;
+height: 100px;
+width: 100%;
+list-style: none;
+display: inline-block;
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+}
+.c2{
+background: #4D4F51;
+height: 100px;
+width: 100%;
+list-style: none;
+margin-bottom: 20px;
+text-align: center;
+}
+.c3{
+background: #fff;
+height: 100px;
+width: 100%;
+list-style: none;
+border: solid 1px black;
+margin-bottom: 20px;
+text-align: center;
 
+}
+.c4{
+background: black;
+height: 100px;
+width: 100%;
+list-style: none;
+color:white;
+margin-bottom: 20px;
+text-align: center;
+}
 
 
 
