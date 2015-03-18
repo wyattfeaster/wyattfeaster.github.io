@@ -13,6 +13,7 @@ header{
   	color:white;
   	position:fixed;
   	z-index:2;
+  	top: 0;
  }	
 
   /*logo*/
@@ -47,14 +48,14 @@ ul li {
 
 }
 ul li:hover {
-  background: #555;
+  background: #ED891B;
   color: #fff;
 }
 ul li ul {
   padding: 0;
   position: absolute;
   top: 48px;
-  left: -100;
+  left: -83;
   width: 150px;
   box-shadow: none;
   display: none;
@@ -74,11 +75,10 @@ ul li:hover ul {
   visibility: visible;
 }
 
-
-
-.nav{
-
-	
+a,
+a:visited{
+	text-decoration: none;
+	color:white;
 }
 
 	/*banner*/
@@ -311,25 +311,9 @@ div{
 	margin-left:14.4%;
 }
 
-.nav {
+ul{
 
 	margin-right:14.4%;
-}
-.nav li{
-
-	float:right;
-	display:inline-block;
-	text-decoration: none;
-	list-style: none;
-	padding: 0 0px 0px 20px;
-	color:#ED891B;
-
-
-}
-
-.nav li:hover{
-
-	color:white;
 }
 
 
@@ -341,7 +325,7 @@ div{
 .me h1{
 
 	font-size:30px;
-	top:-200;
+	top:-300;
 }
 
 span{
@@ -352,9 +336,9 @@ span{
 
 		width:100%;
 		height:auto;
-		margin-top:-650px;
+		margin-top:-550px;
 		opacity: .75;
-	}
+}
 /*Gallery*/
 .main-content{
 
@@ -421,11 +405,12 @@ article{
 
 		width:100%;
 		height:auto;
-		margin-top:-1500px;
+		margin-top:-1250px;
 		opacity: .75;
 	}
 
 }
+
 
 
 
