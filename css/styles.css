@@ -139,7 +139,7 @@ h1{
 footer{
 
 	clear:both;
-	height:75px;
+	height:100px;
 	text-align:center;
 	margin:auto;
 	width:100%;
@@ -147,10 +147,6 @@ footer{
 
 }
 
-@media (max-width: 320px) {
-
-
-}
 /*****************  MEDIA QUERIES (TABLET) ******************/
 /***********************************************************/
 
