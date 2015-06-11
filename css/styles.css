@@ -16,6 +16,10 @@ header{
   	top: 0;
  }	
 
+p{
+
+	margin-bottom: :200px;
+}
   /*logo*/
 
 div{
@@ -143,7 +147,10 @@ footer{
 
 }
 
+@media (max-width: 320px) {
 
+
+}
 /*****************  MEDIA QUERIES (TABLET) ******************/
 /***********************************************************/
 
@@ -240,7 +247,7 @@ p,
 h1{
 	padding: 1px 10px 1px 10px;
 	font-size: 12px;
-	margin-bottom:2px;
+	margin-bottom:100px;
 
 }
 
