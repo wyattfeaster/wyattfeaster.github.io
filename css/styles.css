@@ -87,18 +87,11 @@ a:visited{
 .me h1{
 
 	line-height: 120%;
-	font-size:20px;
+	font-size:50px;
 	text-align: center;
-	
-
 	text-align: center;
 	position: absolute;
-	
-
 	color: white;
-	
-	
-
 	display: inline-block;
 	left:0;
 	right:0;
@@ -108,9 +101,9 @@ a:visited{
 }
 
 span{
-	border: 4px solid;
 	padding: 5px;
 	display: inline-flex;
+	
 }
 .hidden1 {
 
@@ -186,13 +179,13 @@ ul li {
 .me h1{
 
 
-	font-size:30px;
+	font-size:50px;
 	top:-175;
 }
 
 span{
-	border: 4px solid;
 	padding: 5px;
+	line-height: 120%;
 }
 
 /*Gallery*/
@@ -215,7 +208,7 @@ span{
 .gallery{
 
 	width:100%;
-	height:500px;
+	height:auto;
 	
 }
 
@@ -298,6 +291,7 @@ header{
 }
 
 div{
+
 	height: 75px;
 	width: 75px;
 	float:left;
@@ -318,18 +312,13 @@ ul{
 .me h1{
 
 	font-size: 60px;
-	
-
 	top:-300;
-	
-
-	display: inline-flex;
 
 }
 
 span{
-	border: 4px solid;
 	padding: 5px;
+	max-width: 80%;
 }
 .banner img{
 
@@ -357,7 +346,7 @@ span{
 .gallery{
 
 	width:100%;
-	height:500px;
+	height:auto;
 	margin-top: 50px;
 	
 	
@@ -394,8 +383,8 @@ article{
 
 .banner img{
 
-		width:100%;
-		height:auto;
+	width:100%;
+	height:auto;
 			}
 
 }
