@@ -227,7 +227,7 @@ span{
 
 .gallery img{
 
-	margin-top:0px;
+	margin-top:5%;
 
 
 }
@@ -302,12 +302,12 @@ div{
 	height: 75px;
 	width: 75px;
 	float:left;
-	margin-left:14.4%;
+	margin-left:10%;
 }
 
 ul{
 
-	margin-right:14.4%;
+	margin-right:10%;
 }
 
 

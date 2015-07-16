@@ -1,0 +1,35 @@
+.more{
+
+	width:80%;
+	margin:0 10% 10%;
+	height: 100vh;
+	-webkit-font-smoothing: antialiased;
+}
+
+.more img{
+
+	width: 40%;
+	float: left;
+}
+
+.more p{
+
+	float: left;
+	width: 40%;
+	padding:5%;
+	padding-top:0px;
+	letter-spacing: 0.5px;
+	font-weight: thin;
+	font-size: 15px;
+	color: gray;
+}
+h3{
+
+	float: left;
+	width: 40%;
+	padding-left: 5%;
+	padding-top:2.5%;
+	padding-bottom:0;
+	font-size: 40px; 
+	font-weight: bolder;
+}
