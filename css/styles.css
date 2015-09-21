@@ -435,11 +435,10 @@ article img{
 
 .more{
 
-	width:80%;
+	width:90%;
 	clear:both;
-	
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:5%;
+	margin-right:5%;
 
 }
 
@@ -453,10 +452,50 @@ article img{
 
 }
 
+
+#gallery {
+
+	max-width: 740px;
+	height: auto;
+	margin: 125px auto	50px auto;
+}
 /**********************END PROJECT PAGES STYLING*********************************************************/
 
 
 
+/**********************    ABOUT ME SECTION   *********************************************************/
 
 
+
+/**********************    CONTACT  *********************************************************/
+
+.contactinfo{
+
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	padding-left: 0;
+	line-height: 25px;
+	font-weight: 100;
+}
+
+h4{
+
+	font-size: 40px;
+	-webkit-font-smoothing:antialiased;
+	text-transform: uppercase;
+	margin: 5px;
+
+}
+
+h2	{
+
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h3	{
+
+	font-weight: 100;
+}
 
