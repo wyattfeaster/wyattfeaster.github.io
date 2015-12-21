@@ -408,6 +408,7 @@ article img{
 }
 
 
+
 }
 
 /************************** LARGE DISPLAYS ******************************/
@@ -459,6 +460,27 @@ article img{
 	height: auto;
 	margin: 125px auto	50px auto;
 }
+
+
+.proto{
+
+	background: #efb51d;
+	border-radius: 0;
+	margin-bottom: 50px;
+	height: auto;
+	width: 100%;
+	color: black;
+	text-align: center;
+	margin-right: auto;
+
+
+}
+
+.proto a{
+
+	color: black;
+}
+
 /**********************END PROJECT PAGES STYLING*********************************************************/
 
 
@@ -490,7 +512,7 @@ h4{
 
 h2	{
 
-	font-weight: 300;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
