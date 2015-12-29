@@ -498,7 +498,8 @@ article img{
 	margin-left: 0;
 	padding-left: 0;
 	line-height: 25px;
-	font-weight: 100;
+	font-weight: 300;
+	-webkit-font-smoothing:antialiased;
 }
 
 h4{
